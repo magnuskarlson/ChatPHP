@@ -1,0 +1,73 @@
+/**chat style */
+
+.chatbox {
+    height: 200px;
+    width: 600px;
+    border: 1px solid #ccc;
+    font: 16px/26px Georgia, Garamond, Serif;
+    padding: 10px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.chatline {
+    display: block;
+    margin: 0;
+}
+
+.chatline:hover {
+    cursor: pointer;
+}
+
+
+/**input styles */
+
+input[type=text] {
+    width: 600px;
+    padding: 10px;
+    font-size: 120%;
+    border: 1px solid #ccc;
+}
+
+input {
+    -webkit-appearance: none;
+    margin-top: 10px;
+}
+
+input[type=button] {
+    border-style: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    background: #d4edda;
+    color: #155724;
+    font-size: 125%;
+}
+
+
+/**main frames */
+
+@font-face {
+    font-family: 'graffiti';
+    font-style: normal;
+    font-weight: normal;
+    src: local('graffiti'), url('../src/THE_JACATRA.otf') format('truetype');
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#response {
+    display: none;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
